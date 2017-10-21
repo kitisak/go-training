@@ -6,14 +6,14 @@ import (
 )
 
 func TestAppendSlice(t *testing.T) {
-	data := []string{"go", "java", "node", "clojure", "python"}
+	data := []string{"go", "ruby", "node", "clojure", "python"}
 	add := []string{"react", "angular", "vue"}
 
 	merged := concat(data, add)
 
-	expected := []string{"go", "java", "node", "clojure", "python", "react", "angular", "vue"}
+	expected := []string{"go", "ruby", "node", "clojure", "python", "react", "angular", "vue"}
 
-	if !reflect.DeepEqual(r, expected) {
+	if !reflect.DeepEqual(merged, expected) {
 		t.Errorf("%v is expected but got %v", expected, merged)
 	}
 }
