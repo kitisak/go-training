@@ -2,15 +2,15 @@ app:
   port: 1399
 
 mongodb:
-  conns: mongodb://omrdev:omrdev2014@andromeda11.tac.co.th:27017
-  database: dev2
+  conns: mongodb://user:pass@mongodb:27017
+  database: dev
 
 salt:
   spec:
-    url: http://athena13.tac.co.th:9582/
+    url: http://seiya:9582/
     method: POST
     content-type: xml
     timeout: 3
     basic-auth:
-      username: LLCRMWS
-      password: dtac1234
+      username: LLAAAAAAA
+      password: DDDD1111
